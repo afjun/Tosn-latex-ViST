@@ -1,0 +1,72 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: sample-acmsmall-mine-v33.aux
+The style file: ACM-Reference-Format.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: sample-base.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty publisher in book
+Warning--empty address in book
+Warning--no journal in boogaard1998wofost
+Warning--no number and no volume in boogaard1998wofost
+Warning--page numbers missing in both pages and numpages fields in boogaard1998wofost
+Warning--empty publisher in islam_deep_2018
+Warning--empty address in islam_deep_2018
+Warning--unusual to have number, but no volume, for __1999
+Warning--no journal in oneal_neural_2002
+Warning--no number and no volume in oneal_neural_2002
+Warning--page numbers missing in both pages and numpages fields in oneal_neural_2002
+Warning--empty address in drummond_application_1998
+Warning--empty year in nagrani_attention_nodate
+Warning--no journal in nagrani_attention_nodate
+Warning--no number and no volume in nagrani_attention_nodate
+Warning--empty address in vaswani_attention_2017
+Warning--page numbers missing in both pages and numpages fields in vaswani_attention_2017
+You've used 59 entries,
+            5981 wiz_defined-function locations,
+            2024 strings with 34848 characters,
+and the built_in function-call counts, 74563 in all, are:
+= -- 10819
+> -- 2939
+< -- 0
++ -- 1034
+- -- 1003
+* -- 5712
+:= -- 7271
+add.period$ -- 295
+call.type$ -- 59
+change.case$ -- 542
+chr.to.int$ -- 58
+cite$ -- 76
+duplicate$ -- 5747
+empty$ -- 4036
+format.name$ -- 1234
+if$ -- 18852
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 217
+newline$ -- 582
+num.names$ -- 414
+pop$ -- 2175
+preamble$ -- 1
+purify$ -- 1002
+quote$ -- 0
+skip$ -- 2046
+stack$ -- 0
+substring$ -- 5152
+swap$ -- 651
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1052
+warning$ -- 17
+while$ -- 347
+width$ -- 0
+write$ -- 1226
+(There were 17 warnings)

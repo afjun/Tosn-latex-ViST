@@ -1,0 +1,760 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{50}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[Gaydon and Roth(2014)]%
+        {book}
+\bibfield{author}{\bibinfo{person}{Donald Gaydon} {and}
+  \bibinfo{person}{Christian Roth}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \bibinfo{booktitle}{\emph{SAC Monograph: The SAARC-Australia
+  Project-Developing Capacity in Cropping Systems Modelling for South Asia}}.
+\newblock
+\showISBNx{978-984-33-7469-1}
+
+
+\bibitem[Brisson et~al\mbox{.}(2003)]%
+        {BRISSON2003309}
+\bibfield{author}{\bibinfo{person}{N Brisson}, \bibinfo{person}{C Gary},
+  \bibinfo{person}{E Justes}, \bibinfo{person}{R Roche}, \bibinfo{person}{B
+  Mary}, \bibinfo{person}{D Ripoche}, \bibinfo{person}{D Zimmer},
+  \bibinfo{person}{J Sierra}, \bibinfo{person}{P Bertuzzi}, \bibinfo{person}{P
+  Burger}, \bibinfo{person}{F Bussi{\`e}re}, \bibinfo{person}{Y.M Cabidoche},
+  \bibinfo{person}{P Cellier}, \bibinfo{person}{P Debaeke},
+  \bibinfo{person}{J.P Gaudill{\`e}re}, \bibinfo{person}{C H{\'e}nault},
+  \bibinfo{person}{F Maraux}, \bibinfo{person}{B Seguin}, {and}
+  \bibinfo{person}{H Sinoquet}.} \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{An Overview of the Crop Model Stics}.
+\newblock \bibinfo{journal}{\emph{European Journal of Agronomy}}
+  \bibinfo{volume}{18}, \bibinfo{number}{3} (\bibinfo{year}{2003}),
+  \bibinfo{pages}{309--332}.
+\newblock
+\showISSN{1161-0301}
+\urldef\tempurl%
+\url{https://doi.org/10.1016/S1161-0301(02)00110-7}
+\showDOI{\tempurl}
+
+
+\bibitem[Boogaard et~al\mbox{.}(1998)]%
+        {boogaard1998wofost}
+\bibfield{author}{\bibinfo{person}{HL Boogaard}, \bibinfo{person}{CA
+  Van~Diepen}, \bibinfo{person}{RP Rotter}, \bibinfo{person}{JMCA Cabrera},
+  {and} \bibinfo{person}{HH Van~Laar}.} \bibinfo{year}{1998}\natexlab{}.
+\newblock \showarticletitle{WOFOST 7.1; user's guide for the WOFOST 7.1 crop
+  growth simulation model and WOFOST Control Center 1.5}.
+\newblock  (\bibinfo{year}{1998}).
+\newblock
+
+
+\bibitem[Wang et~al\mbox{.}(2022)]%
+        {wang_new_2022}
+\bibfield{author}{\bibinfo{person}{Kaili Wang}, \bibinfo{person}{Keyu Chen},
+  \bibinfo{person}{Huiyu Du}, \bibinfo{person}{Shuang Liu},
+  \bibinfo{person}{Jingwen Xu}, \bibinfo{person}{Junfang Zhao},
+  \bibinfo{person}{Houlin Chen}, \bibinfo{person}{Yujun Liu}, {and}
+  \bibinfo{person}{Yang Liu}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{New Image Dataset and New Negative Sample Judgment
+  Method for Crop Pest Recognition Based on Deep Learning Models}.
+\newblock \bibinfo{journal}{\emph{Ecological Informatics}}
+  \bibinfo{volume}{69} (\bibinfo{year}{2022}), \bibinfo{pages}{101620}.
+\newblock
+\showISSN{1574-9541}
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.ecoinf.2022.101620}
+\showDOI{\tempurl}
+
+
+\bibitem[Yue et~al\mbox{.}(2019)]%
+        {yue_estimate_2019}
+\bibfield{author}{\bibinfo{person}{Jibo Yue}, \bibinfo{person}{Guijun Yang},
+  \bibinfo{person}{Qingjiu Tian}, \bibinfo{person}{Haikuan Feng},
+  \bibinfo{person}{Kaijian Xu}, {and} \bibinfo{person}{Chengquan Zhou}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Estimate of Winter-Wheat above-Ground Biomass Based
+  on {{UAV}} Ultrahigh-Ground-Resolution Image Textures and Vegetation
+  Indices}.
+\newblock \bibinfo{journal}{\emph{ISPRS Journal of Photogrammetry and Remote
+  Sensing}}  \bibinfo{volume}{150} (\bibinfo{year}{2019}),
+  \bibinfo{pages}{226--244}.
+\newblock
+\showISSN{0924-2716}
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.isprsjprs.2019.02.022}
+\showDOI{\tempurl}
+
+
+\bibitem[Turkoglu et~al\mbox{.}(2021)]%
+        {turkoglu_crop_2021}
+\bibfield{author}{\bibinfo{person}{Mehmet~Ozgur Turkoglu},
+  \bibinfo{person}{Stefano D'Aronco}, \bibinfo{person}{Gregor Perich},
+  \bibinfo{person}{Frank Liebisch}, \bibinfo{person}{Constantin Streit},
+  \bibinfo{person}{Konrad Schindler}, {and} \bibinfo{person}{Jan~Dirk Wegner}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Crop Mapping from Image Time Series: {{Deep}}
+  Learning with Multi-Scale Label Hierarchies}.
+\newblock \bibinfo{journal}{\emph{Remote Sensing of Environment}}
+  \bibinfo{volume}{264} (\bibinfo{year}{2021}), \bibinfo{pages}{112603}.
+\newblock
+\showISSN{0034-4257}
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.rse.2021.112603}
+\showDOI{\tempurl}
+
+
+\bibitem[Trnka et~al\mbox{.}(2007)]%
+        {trnka_effect_2007}
+\bibfield{author}{\bibinfo{person}{Miroslav Trnka}, \bibinfo{person}{Josef
+  Eitzinger}, \bibinfo{person}{Pavel Kapler}, \bibinfo{person}{Martin
+  Dubrovsk{\'y}}, \bibinfo{person}{Daniela Semer{\'a}dov{\'a}},
+  \bibinfo{person}{Zden{\v e}k {\v Z}alud}, {and} \bibinfo{person}{Herbert
+  Formayer}.} \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Effect of {{Estimated Daily Global Solar Radiation
+  Data}} on the {{Results}} of {{Crop Growth Models}}}.
+\newblock \bibinfo{journal}{\emph{Sensors}} \bibinfo{volume}{7},
+  \bibinfo{number}{10} (\bibinfo{date}{Oct.} \bibinfo{year}{2007}),
+  \bibinfo{pages}{2330--2362}.
+\newblock
+\showISSN{1424-8220}
+\urldef\tempurl%
+\url{https://doi.org/10.3390/s7102330}
+\showDOI{\tempurl}
+
+
+\bibitem[Islam et~al\mbox{.}(2018)]%
+        {islam_deep_2018}
+\bibfield{author}{\bibinfo{person}{Tanhim Islam}, \bibinfo{person}{Tanjir~Alam
+  Chisty}, {and} \bibinfo{person}{Amitabha Chakrabarty}.}
+  \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{A {{Deep Neural Network Approach}} for {{Crop
+  Selection}} and {{Yield Prediction}} in {{Bangladesh}}}. In
+  \bibinfo{booktitle}{\emph{2018 {{IEEE Region}} 10 {{Humanitarian Technology
+  Conference}} ({{R10-HTC}})}}. \bibinfo{pages}{1--6}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/R10-HTC.2018.8629828}
+\showDOI{\tempurl}
+
+
+\bibitem[Adisa et~al\mbox{.}(2019)]%
+        {adisa_application_2019}
+\bibfield{author}{\bibinfo{person}{Omolola~M Adisa}, \bibinfo{person}{Joel~O
+  Botai}, \bibinfo{person}{Abiodun~M Adeola}, \bibinfo{person}{Abubeker
+  Hassen}, \bibinfo{person}{Christina~M Botai}, \bibinfo{person}{Daniel
+  Darkey}, {and} \bibinfo{person}{Eyob Tesfamariam}.}
+  \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Application of Artificial Neural Network for
+  Predicting Maize Production in {{South Africa}}}.
+\newblock \bibinfo{journal}{\emph{Sustainability}} \bibinfo{volume}{11},
+  \bibinfo{number}{4} (\bibinfo{year}{2019}), \bibinfo{pages}{1145}.
+\newblock
+
+
+\bibitem[Liu et~al\mbox{.}(2001)]%
+        {liu_neural_2001}
+\bibfield{author}{\bibinfo{person}{Jing Liu}, \bibinfo{person}{CE Goering},
+  {and} \bibinfo{person}{Lei Tian}.} \bibinfo{year}{2001}\natexlab{}.
+\newblock \showarticletitle{A Neural Network for Setting Target Corn Yields}.
+\newblock \bibinfo{journal}{\emph{Transactions of the ASAE}}
+  \bibinfo{volume}{44}, \bibinfo{number}{3} (\bibinfo{year}{2001}),
+  \bibinfo{pages}{705}.
+\newblock
+
+
+\bibitem[Matsumura et~al\mbox{.}(2015)]%
+        {matsumura_maize_2015}
+\bibfield{author}{\bibinfo{person}{Kanichiro Matsumura},
+  \bibinfo{person}{Carlos~F Gaitan}, \bibinfo{person}{Kenji Sugimoto},
+  \bibinfo{person}{Alex~J Cannon}, {and} \bibinfo{person}{William~W Hsieh}.}
+  \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Maize Yield Forecasting by Linear Regression and
+  Artificial Neural Networks in {{Jilin}}, {{China}}}.
+\newblock \bibinfo{journal}{\emph{The Journal of Agricultural Science}}
+  \bibinfo{volume}{153}, \bibinfo{number}{3} (\bibinfo{year}{2015}),
+  \bibinfo{pages}{399--410}.
+\newblock
+
+
+\bibitem[Guo et~al\mbox{.}(2019)]%
+        {guo2019deep}
+\bibfield{author}{\bibinfo{person}{Zhe Guo}, \bibinfo{person}{Xiang Li},
+  \bibinfo{person}{Heng Huang}, \bibinfo{person}{Ning Guo}, {and}
+  \bibinfo{person}{Quanzheng Li}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Deep learning-based image segmentation on
+  multimodal medical imaging}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Radiation and Plasma
+  Medical Sciences}} \bibinfo{volume}{3}, \bibinfo{number}{2}
+  (\bibinfo{year}{2019}), \bibinfo{pages}{162--169}.
+\newblock
+
+
+\bibitem[Xiao et~al\mbox{.}(2022)]%
+        {xiao2020multimodal}
+\bibfield{author}{\bibinfo{person}{Yi Xiao}, \bibinfo{person}{Felipe
+  Codevilla}, \bibinfo{person}{Akhil Gurram}, \bibinfo{person}{Onay
+  Urfalioglu}, {and} \bibinfo{person}{Antonio~M. López}.}
+  \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Multimodal End-to-End Autonomous Driving}.
+\newblock \bibinfo{journal}{\emph{IEEE Transactions on Intelligent
+  Transportation Systems}} \bibinfo{volume}{23}, \bibinfo{number}{1}
+  (\bibinfo{year}{2022}), \bibinfo{pages}{537--547}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1109/TITS.2020.3013234}
+\showDOI{\tempurl}
+
+
+\bibitem[Chen et~al\mbox{.}(2016)]%
+        {__2016}
+\bibfield{author}{\bibinfo{person}{Zhongxin Chen}, \bibinfo{person}{Huajun~Tang
+  Jianqiang~Ren}, \bibinfo{person}{Pei~Leng Yun~Shi},
+  \bibinfo{person}{Limin~Wang Jia~Liu}, \bibinfo{person}{Yanmin~Yao Wenbin~Wu},
+  {and} \bibinfo{person}{Hasituya}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Progress and Prospect of agricultural remote
+  sensing research and application}.
+\newblock \bibinfo{journal}{\emph{Journal of Remote Sensing}}
+  \bibinfo{volume}{20}, \bibinfo{number}{05} (\bibinfo{year}{2016}),
+  \bibinfo{pages}{748--767}.
+\newblock
+\showISBNx{1007-4619}
+\showLCCN{11-3841/TP}
+
+
+\bibitem[Johnson et~al\mbox{.}(2016)]%
+        {johnson_crop_2016}
+\bibfield{author}{\bibinfo{person}{Michael~D Johnson},
+  \bibinfo{person}{William~W Hsieh}, \bibinfo{person}{Alex~J Cannon},
+  \bibinfo{person}{Andrew Davidson}, {and} \bibinfo{person}{Fr{\'e}d{\'e}ric
+  B{\'e}dard}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{Crop Yield Forecasting on the {{Canadian Prairies}}
+  by Remotely Sensed Vegetation Indices and Machine Learning Methods}.
+\newblock \bibinfo{journal}{\emph{Agricultural and forest meteorology}}
+  \bibinfo{volume}{218} (\bibinfo{year}{2016}), \bibinfo{pages}{74--84}.
+\newblock
+
+
+\bibitem[Zhong et~al\mbox{.}(2019)]%
+        {zhong_deep_2019}
+\bibfield{author}{\bibinfo{person}{Liheng Zhong}, \bibinfo{person}{Lina Hu},
+  {and} \bibinfo{person}{Hang Zhou}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Deep Learning Based Multi-Temporal Crop
+  Classification}.
+\newblock \bibinfo{journal}{\emph{Remote sensing of environment}}
+  \bibinfo{volume}{221} (\bibinfo{year}{2019}), \bibinfo{pages}{430--443}.
+\newblock
+
+
+\bibitem[Yang et~al\mbox{.}(2019)]%
+        {yang_deep_2019}
+\bibfield{author}{\bibinfo{person}{Qi Yang}, \bibinfo{person}{Liangsheng Shi},
+  \bibinfo{person}{Jinye Han}, \bibinfo{person}{Yuanyuan Zha}, {and}
+  \bibinfo{person}{Penghui Zhu}.} \bibinfo{year}{2019}\natexlab{}.
+\newblock \showarticletitle{Deep Convolutional Neural Networks for Rice Grain
+  Yield Estimation at the Ripening Stage Using {{UAV-based}} Remotely Sensed
+  Images}.
+\newblock \bibinfo{journal}{\emph{Field Crops Research}}  \bibinfo{volume}{235}
+  (\bibinfo{year}{2019}), \bibinfo{pages}{142--153}.
+\newblock
+
+
+\bibitem[Weiss and Biber(2011)]%
+        {weiss_plant_2011}
+\bibfield{author}{\bibinfo{person}{Ulrich Weiss} {and} \bibinfo{person}{Peter
+  Biber}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Plant Detection and Mapping for Agricultural Robots
+  Using a {{3D LIDAR}} Sensor}.
+\newblock \bibinfo{journal}{\emph{Robotics and Autonomous Systems}}
+  \bibinfo{volume}{59}, \bibinfo{number}{5} (\bibinfo{year}{2011}),
+  \bibinfo{pages}{265--273}.
+\newblock
+\showISSN{0921-8890}
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.robot.2011.02.011}
+\showDOI{\tempurl}
+
+
+\bibitem[Tao et~al\mbox{.}(2020)]%
+        {tao_estimation_2020}
+\bibfield{author}{\bibinfo{person}{Huilin Tao}, \bibinfo{person}{Haikuan Feng},
+  \bibinfo{person}{Liangji Xu}, \bibinfo{person}{Mengke Miao},
+  \bibinfo{person}{Huiling Long}, \bibinfo{person}{Jibo Yue},
+  \bibinfo{person}{Zhenhai Li}, \bibinfo{person}{Guijun Yang},
+  \bibinfo{person}{Xiaodong Yang}, {and} \bibinfo{person}{Lingling Fan}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Estimation of {{Crop Growth Parameters Using
+  UAV-Based Hyperspectral Remote Sensing Data}}}.
+\newblock \bibinfo{journal}{\emph{Sensors}} \bibinfo{volume}{20},
+  \bibinfo{number}{5} (\bibinfo{year}{2020}), \bibinfo{pages}{1296}.
+\newblock
+\showISSN{1424-8220}
+\urldef\tempurl%
+\url{https://doi.org/10.3390/s20051296}
+\showDOI{\tempurl}
+
+
+\bibitem[Zhou et~al\mbox{.}(2017)]%
+        {zhou_predicting_2017}
+\bibfield{author}{\bibinfo{person}{X. Zhou}, \bibinfo{person}{H.~B. Zheng},
+  \bibinfo{person}{X.~Q. Xu}, \bibinfo{person}{J.~Y. He},
+  \bibinfo{person}{X.~K. Ge}, \bibinfo{person}{X. Yao}, \bibinfo{person}{T.
+  Cheng}, \bibinfo{person}{Y. Zhu}, \bibinfo{person}{W.~X. Cao}, {and}
+  \bibinfo{person}{Y.~C. Tian}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Predicting Grain Yield in Rice Using Multi-Temporal
+  Vegetation Indices from {{UAV-based}} Multispectral and Digital Imagery}.
+\newblock \bibinfo{journal}{\emph{ISPRS Journal of Photogrammetry and Remote
+  Sensing}}  \bibinfo{volume}{130} (\bibinfo{year}{2017}),
+  \bibinfo{pages}{246--255}.
+\newblock
+\showISSN{0924-2716}
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.isprsjprs.2017.05.003}
+\showDOI{\tempurl}
+
+
+\bibitem[Maimaitijiang et~al\mbox{.}(2017)]%
+        {maimaitijiang_unmanned_2017}
+\bibfield{author}{\bibinfo{person}{Maitiniyazi Maimaitijiang},
+  \bibinfo{person}{Abduwasit Ghulam}, \bibinfo{person}{Paheding Sidike},
+  \bibinfo{person}{Sean Hartling}, \bibinfo{person}{Matthew Maimaitiyiming},
+  \bibinfo{person}{Kyle Peterson}, \bibinfo{person}{Ethan Shavers},
+  \bibinfo{person}{Jack Fishman}, \bibinfo{person}{Jim Peterson},
+  \bibinfo{person}{Suhas Kadam}, \bibinfo{person}{Joel Burken}, {and}
+  \bibinfo{person}{Felix Fritschi}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Unmanned {{Aerial System}} ({{UAS}})-Based
+  Phenotyping of Soybean Using Multi-Sensor Data Fusion and Extreme Learning
+  Machine}.
+\newblock \bibinfo{journal}{\emph{ISPRS Journal of Photogrammetry and Remote
+  Sensing}}  \bibinfo{volume}{134} (\bibinfo{year}{2017}),
+  \bibinfo{pages}{43--58}.
+\newblock
+\showISSN{0924-2716}
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.isprsjprs.2017.10.011}
+\showDOI{\tempurl}
+
+
+\bibitem[Wan et~al\mbox{.}(2020)]%
+        {wan_grain_2020}
+\bibfield{author}{\bibinfo{person}{Liang Wan}, \bibinfo{person}{Haiyan Cen},
+  \bibinfo{person}{Jiangpeng Zhu}, \bibinfo{person}{Jiafei Zhang},
+  \bibinfo{person}{Yueming Zhu}, \bibinfo{person}{Dawei Sun},
+  \bibinfo{person}{Xiaoyue Du}, \bibinfo{person}{Li Zhai},
+  \bibinfo{person}{Haiyong Weng}, \bibinfo{person}{Yijian Li},
+  \bibinfo{person}{Xiaoran Li}, \bibinfo{person}{Yidan Bao},
+  \bibinfo{person}{Jianyao Shou}, {and} \bibinfo{person}{Yong He}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Grain Yield Prediction of Rice Using Multi-Temporal
+  {{UAV-based RGB}} and Multispectral Images and Model Transfer \textendash{} a
+  Case Study of Small Farmlands in the {{South}} of {{China}}}.
+\newblock \bibinfo{journal}{\emph{Agricultural and Forest Meteorology}}
+  \bibinfo{volume}{291} (\bibinfo{year}{2020}), \bibinfo{pages}{108096}.
+\newblock
+\showISSN{0168-1923}
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.agrformet.2020.108096}
+\showDOI{\tempurl}
+
+
+\bibitem[Fortin et~al\mbox{.}(2011)]%
+        {fortin_site-specific_2011}
+\bibfield{author}{\bibinfo{person}{J{\'e}r{\^o}me~G Fortin},
+  \bibinfo{person}{Fran{\c c}ois Anctil}, \bibinfo{person}{L{\'e}on-{\'E}tienne
+  Parent}, {and} \bibinfo{person}{Martin~A Bolinder}.}
+  \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Site-Specific Early Season Potato Yield Forecast by
+  Neural Network in {{Eastern Canada}}}.
+\newblock \bibinfo{journal}{\emph{Precision agriculture}} \bibinfo{volume}{12},
+  \bibinfo{number}{6} (\bibinfo{year}{2011}), \bibinfo{pages}{905--923}.
+\newblock
+
+
+\bibitem[Campbell et~al\mbox{.}(1988)]%
+        {campbell_effect_1988}
+\bibfield{author}{\bibinfo{person}{CA Campbell}, \bibinfo{person}{RP Zentner},
+  {and} \bibinfo{person}{PJ Johnson}.} \bibinfo{year}{1988}\natexlab{}.
+\newblock \showarticletitle{Effect of Crop Rotation and Fertilization on the
+  Quantitative Relationship between Spring Wheat Yield and Moisture Use in
+  Southwestern {{Saskatchewan}}}.
+\newblock \bibinfo{journal}{\emph{Canadian Journal of Soil Science}}
+  \bibinfo{volume}{68}, \bibinfo{number}{1} (\bibinfo{year}{1988}),
+  \bibinfo{pages}{1--16}.
+\newblock
+
+
+\bibitem[Ehret et~al\mbox{.}(2011)]%
+        {ehret_neural_2011}
+\bibfield{author}{\bibinfo{person}{David~L Ehret}, \bibinfo{person}{Bernard~D
+  Hill}, \bibinfo{person}{Tom Helmer}, {and} \bibinfo{person}{Diane~R
+  Edwards}.} \bibinfo{year}{2011}\natexlab{}.
+\newblock \showarticletitle{Neural Network Modeling of Greenhouse Tomato Yield,
+  Growth and Water Use from Automated Crop Monitoring Data}.
+\newblock \bibinfo{journal}{\emph{Computers and electronics in agriculture}}
+  \bibinfo{volume}{79}, \bibinfo{number}{1} (\bibinfo{year}{2011}),
+  \bibinfo{pages}{82--89}.
+\newblock
+
+
+\bibitem[Dahikar and Rode(2014)]%
+        {dahikar_agricultural_2014}
+\bibfield{author}{\bibinfo{person}{Snehal~S Dahikar} {and}
+  \bibinfo{person}{Sandeep~V Rode}.} \bibinfo{year}{2014}\natexlab{}.
+\newblock \showarticletitle{Agricultural Crop Yield Prediction Using Artificial
+  Neural Network Approach}.
+\newblock \bibinfo{journal}{\emph{International journal of innovative research
+  in electrical, electronics, instrumentation and control engineering}}
+  \bibinfo{volume}{2}, \bibinfo{number}{1} (\bibinfo{year}{2014}),
+  \bibinfo{pages}{683--686}.
+\newblock
+
+
+\bibitem[O'Neal et~al\mbox{.}(2002)]%
+        {oneal_neural_2002}
+\bibfield{author}{\bibinfo{person}{Monte~R O'Neal}, \bibinfo{person}{Bernard~A
+  Engel}, \bibinfo{person}{Daniel~R Ess}, {and} \bibinfo{person}{Jane~R
+  Frankenberger}.} \bibinfo{year}{2002}\natexlab{}.
+\newblock \showarticletitle{Neural Network Prediction of Maize Yield Using
+  Alternative Data Coding Algorithms}.
+\newblock  (\bibinfo{year}{2002}).
+\newblock
+
+
+\bibitem[Morimoto et~al\mbox{.}(2007)]%
+        {morimoto_dynamic_2007}
+\bibfield{author}{\bibinfo{person}{T Morimoto}, \bibinfo{person}{Y Ouchi},
+  \bibinfo{person}{M Shimizu}, {and} \bibinfo{person}{MS Baloch}.}
+  \bibinfo{year}{2007}\natexlab{}.
+\newblock \showarticletitle{Dynamic Optimization of Watering {{Satsuma}}
+  Mandarin Using Neural Networks and Genetic Algorithms}.
+\newblock \bibinfo{journal}{\emph{Agricultural water management}}
+  \bibinfo{volume}{93}, \bibinfo{number}{1-2} (\bibinfo{year}{2007}),
+  \bibinfo{pages}{1--10}.
+\newblock
+
+
+\bibitem[Drummond et~al\mbox{.}(1998)]%
+        {drummond_application_1998}
+\bibfield{author}{\bibinfo{person}{Scott Drummond}, \bibinfo{person}{Anupam
+  Joshi}, {and} \bibinfo{person}{Kenneth~A Sudduth}.}
+  \bibinfo{year}{1998}\natexlab{}.
+\newblock \showarticletitle{Application of Neural Networks: Precision Farming}.
+  In \bibinfo{booktitle}{\emph{1998 {{IEEE International Joint Conference}} on
+  {{Neural Networks Proceedings}}. {{IEEE World Congress}} on {{Computational
+  Intelligence}} ({{Cat}}. {{No}}. {{98CH36227}})}}, Vol.~\bibinfo{volume}{1}.
+  \bibinfo{publisher}{{IEEE}}, \bibinfo{pages}{211--215}.
+\newblock
+
+
+\bibitem[Kitchen et~al\mbox{.}(2003)]%
+        {kitchen_soil_2003}
+\bibfield{author}{\bibinfo{person}{NR Kitchen}, \bibinfo{person}{ST Drummond},
+  \bibinfo{person}{ED Lund}, \bibinfo{person}{KA Sudduth}, {and}
+  \bibinfo{person}{GW Buchleiter}.} \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{Soil Electrical Conductivity and Topography Related
+  to Yield for Three Contrasting Soil\textendash Crop Systems}.
+\newblock \bibinfo{journal}{\emph{Agronomy journal}} \bibinfo{volume}{95},
+  \bibinfo{number}{3} (\bibinfo{year}{2003}), \bibinfo{pages}{483--495}.
+\newblock
+
+
+\bibitem[Padilla et~al\mbox{.}(2018)]%
+        {padilla_proximal_2018}
+\bibfield{author}{\bibinfo{person}{Francisco~M Padilla},
+  \bibinfo{person}{Marisa Gallardo}, \bibinfo{person}{M~Teresa
+  {Pe{\~n}a-Fleitas}}, \bibinfo{person}{Romina De~Souza}, {and}
+  \bibinfo{person}{Rodney~B Thompson}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{Proximal Optical Sensors for Nitrogen Management of
+  Vegetable Crops: {{A}} Review}.
+\newblock \bibinfo{journal}{\emph{Sensors}} \bibinfo{volume}{18},
+  \bibinfo{number}{7} (\bibinfo{year}{2018}), \bibinfo{pages}{2083}.
+\newblock
+
+
+\bibitem[Sengupta et~al\mbox{.}(2020)]%
+        {sengupta_review_2020}
+\bibfield{author}{\bibinfo{person}{Saptarshi Sengupta},
+  \bibinfo{person}{Sanchita Basak}, \bibinfo{person}{Pallabi Saikia},
+  \bibinfo{person}{Sayak Paul}, \bibinfo{person}{Vasilios Tsalavoutis},
+  \bibinfo{person}{Frederick Atiah}, \bibinfo{person}{Vadlamani Ravi}, {and}
+  \bibinfo{person}{Alan Peters}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{A Review of Deep Learning with Special Emphasis on
+  Architectures, Applications and Recent Trends}.
+\newblock \bibinfo{journal}{\emph{Knowledge-Based Systems}}
+  \bibinfo{volume}{194} (\bibinfo{year}{2020}), \bibinfo{pages}{105596}.
+\newblock
+
+
+\bibitem[Yuhas et~al\mbox{.}(1989)]%
+        {yuhas_integration_1989}
+\bibfield{author}{\bibinfo{person}{Ben~P Yuhas}, \bibinfo{person}{Moise~H
+  Goldstein}, {and} \bibinfo{person}{Terrence~J Sejnowski}.}
+  \bibinfo{year}{1989}\natexlab{}.
+\newblock \showarticletitle{Integration of Acoustic and Visual Speech Signals
+  Using Neural Networks}.
+\newblock \bibinfo{journal}{\emph{IEEE Communications Magazine}}
+  \bibinfo{volume}{27}, \bibinfo{number}{11} (\bibinfo{year}{1989}),
+  \bibinfo{pages}{65--71}.
+\newblock
+
+
+\bibitem[Snoek and Worring(2005)]%
+        {snoek_multimodal_2005}
+\bibfield{author}{\bibinfo{person}{Cees~GM Snoek} {and} \bibinfo{person}{Marcel
+  Worring}.} \bibinfo{year}{2005}\natexlab{}.
+\newblock \showarticletitle{Multimodal Video Indexing: {{A}} Review of the
+  State-of-the-Art}.
+\newblock \bibinfo{journal}{\emph{Multimedia tools and applications}}
+  \bibinfo{volume}{25}, \bibinfo{number}{1} (\bibinfo{year}{2005}),
+  \bibinfo{pages}{5--35}.
+\newblock
+
+
+\bibitem[Chen et~al\mbox{.}(2021)]%
+        {chen_heu_2021}
+\bibfield{author}{\bibinfo{person}{Jing Chen}, \bibinfo{person}{Chenhui Wang},
+  \bibinfo{person}{Kejun Wang}, \bibinfo{person}{Chaoqun Yin},
+  \bibinfo{person}{Cong Zhao}, \bibinfo{person}{Tao Xu}, \bibinfo{person}{Xinyi
+  Zhang}, \bibinfo{person}{Ziqiang Huang}, \bibinfo{person}{Meichen Liu}, {and}
+  \bibinfo{person}{Tao Yang}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{{{HEU Emotion}}: A Large-Scale Database for
+  Multimodal Emotion Recognition in the Wild}.
+\newblock \bibinfo{journal}{\emph{Neural Computing and Applications}}
+  \bibinfo{volume}{33}, \bibinfo{number}{14} (\bibinfo{year}{2021}),
+  \bibinfo{pages}{8669--8685}.
+\newblock
+
+
+\bibitem[Lei and Huang(2021)]%
+        {lei_video_2021}
+\bibfield{author}{\bibinfo{person}{Zhou Lei} {and} \bibinfo{person}{Yiyong
+  Huang}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Video Captioning Based on Channel Soft Attention
+  and Semantic Reconstructor}.
+\newblock \bibinfo{journal}{\emph{Future Internet}} \bibinfo{volume}{13},
+  \bibinfo{number}{2} (\bibinfo{year}{2021}), \bibinfo{pages}{55}.
+\newblock
+
+
+\bibitem[Long et~al\mbox{.}(2021)]%
+        {long_improving_2021}
+\bibfield{author}{\bibinfo{person}{Yu Long}, \bibinfo{person}{Pengjie Tang},
+  \bibinfo{person}{Hanli Wang}, {and} \bibinfo{person}{Jian Yu}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Improving Reasoning with Contrastive Visual
+  Information for Visual Question Answering}.
+\newblock \bibinfo{journal}{\emph{Electronics Letters}} \bibinfo{volume}{57},
+  \bibinfo{number}{20} (\bibinfo{year}{2021}), \bibinfo{pages}{758--760}.
+\newblock
+
+
+\bibitem[Souza et~al\mbox{.}(2021)]%
+        {souza_online_2021}
+\bibfield{author}{\bibinfo{person}{Rafael Souza}, \bibinfo{person}{Andr{\'e}
+  Fernandes}, \bibinfo{person}{Thiago~SFX Teixeira}, \bibinfo{person}{George
+  Teodoro}, {and} \bibinfo{person}{Renato Ferreira}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Online Multimedia Retrieval on
+  {{CPU}}\textendash{{GPU}} Platforms with Adaptive Work Partition}.
+\newblock \bibinfo{journal}{\emph{J. Parallel and Distrib. Comput.}}
+  \bibinfo{volume}{148} (\bibinfo{year}{2021}), \bibinfo{pages}{31--45}.
+\newblock
+
+
+\bibitem[Yazdavar et~al\mbox{.}(2020)]%
+        {yazdavar_multimodal_2020}
+\bibfield{author}{\bibinfo{person}{Amir~Hossein Yazdavar},
+  \bibinfo{person}{Mohammad~Saeid Mahdavinejad}, \bibinfo{person}{Goonmeet
+  Bajaj}, \bibinfo{person}{William Romine}, \bibinfo{person}{Amit Sheth},
+  \bibinfo{person}{Amir~Hassan Monadjemi}, \bibinfo{person}{Krishnaprasad
+  Thirunarayan}, \bibinfo{person}{John~M Meddar}, \bibinfo{person}{Annie
+  Myers}, \bibinfo{person}{Jyotishman Pathak}, {et~al\mbox{.}}}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Multimodal Mental Health Analysis in Social Media}.
+\newblock \bibinfo{journal}{\emph{Plos one}} \bibinfo{volume}{15},
+  \bibinfo{number}{4} (\bibinfo{year}{2020}), \bibinfo{pages}{e0226248}.
+\newblock
+
+
+\bibitem[Huang et~al\mbox{.}(2021)]%
+        {huang_what_2021}
+\bibfield{author}{\bibinfo{person}{Yu Huang}, \bibinfo{person}{Chenzhuang Du},
+  \bibinfo{person}{Zihui Xue}, \bibinfo{person}{Xuanyao Chen},
+  \bibinfo{person}{Hang Zhao}, {and} \bibinfo{person}{Longbo Huang}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{What {{Makes Multi-modal Learning Better}} than
+  {{Single}} ({{Provably}})}.
+\newblock
+\newblock
+\showeprint[arxiv]{2106.04538}~[cs]
+
+
+\bibitem[Dang et~al\mbox{.}(2021)]%
+        {dang2021autumn}
+\bibfield{author}{\bibinfo{person}{Chaoya Dang}, \bibinfo{person}{Ying Liu},
+  \bibinfo{person}{Hui Yue}, \bibinfo{person}{JiaXin Qian}, {and}
+  \bibinfo{person}{Rong Zhu}.} \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{Autumn Crop Yield Prediction Using Data-Driven
+  Approaches:-Support Vector Machines, Random Forest, and Deep Neural Network
+  Methods}.
+\newblock \bibinfo{journal}{\emph{Canadian Journal of Remote Sensing}}
+  \bibinfo{volume}{47}, \bibinfo{number}{2} (\bibinfo{year}{2021}),
+  \bibinfo{pages}{162--181}.
+\newblock
+
+
+\bibitem[Chu and Yu(2020)]%
+        {chu_end--end_2020}
+\bibfield{author}{\bibinfo{person}{Zheng Chu} {and} \bibinfo{person}{Jiong
+  Yu}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{An End-to-End Model for Rice Yield Prediction Using
+  Deep Learning Fusion}.
+\newblock \bibinfo{journal}{\emph{Computers and Electronics in Agriculture}}
+  \bibinfo{volume}{174} (\bibinfo{year}{2020}), \bibinfo{pages}{105471}.
+\newblock
+\showISSN{0168-1699}
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.compag.2020.105471}
+\showDOI{\tempurl}
+
+
+\bibitem[Maimaitijiang et~al\mbox{.}(2020)]%
+        {maimaitijiang_soybean_2020}
+\bibfield{author}{\bibinfo{person}{Maitiniyazi Maimaitijiang},
+  \bibinfo{person}{Vasit Sagan}, \bibinfo{person}{Paheding Sidike},
+  \bibinfo{person}{Sean Hartling}, \bibinfo{person}{Flavio Esposito}, {and}
+  \bibinfo{person}{Felix~B. Fritschi}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Soybean Yield Prediction from {{UAV}} Using
+  Multimodal Data Fusion and Deep Learning}.
+\newblock \bibinfo{journal}{\emph{Remote Sensing of Environment}}
+  \bibinfo{volume}{237} (\bibinfo{date}{Feb.} \bibinfo{year}{2020}),
+  \bibinfo{pages}{111599}.
+\newblock
+\showISSN{00344257}
+\urldef\tempurl%
+\url{https://doi.org/10.1016/j.rse.2019.111599}
+\showDOI{\tempurl}
+
+
+\bibitem[Zhao et~al\mbox{.}(2021)]%
+        {zhao_battle_2021}
+\bibfield{author}{\bibinfo{person}{Yucheng Zhao}, \bibinfo{person}{Guangting
+  Wang}, \bibinfo{person}{Chuanxin Tang}, \bibinfo{person}{Chong Luo},
+  \bibinfo{person}{Wenjun Zeng}, {and} \bibinfo{person}{Zheng-Jun Zha}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{A {{Battle}} of {{Network Structures}}: {{An
+  Empirical Study}} of {{CNN}}, {{Transformer}}, and {{MLP}}}.
+\newblock
+\newblock
+\showeprint[arxiv]{2108.13002}~[cs]
+
+
+\bibitem[Clevers and Gitelson(2013)]%
+        {clevers_remote_2013}
+\bibfield{author}{\bibinfo{person}{Jan~GPW Clevers} {and}
+  \bibinfo{person}{Anatoly~A Gitelson}.} \bibinfo{year}{2013}\natexlab{}.
+\newblock \showarticletitle{Remote Estimation of Crop and Grass Chlorophyll and
+  Nitrogen Content Using Red-Edge Bands on {{Sentinel-2}} and-3}.
+\newblock \bibinfo{journal}{\emph{International Journal of Applied Earth
+  Observation and Geoinformation}}  \bibinfo{volume}{23}
+  (\bibinfo{year}{2013}), \bibinfo{pages}{344--351}.
+\newblock
+
+
+\bibitem[Prakash et~al\mbox{.}(2021)]%
+        {prakash_multi-modal_2021}
+\bibfield{author}{\bibinfo{person}{Aditya Prakash}, \bibinfo{person}{Kashyap
+  Chitta}, {and} \bibinfo{person}{Andreas Geiger}.}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{Multi-{{Modal Fusion Transformer}} for {{End-to-End
+  Autonomous Driving}}}.
+\newblock
+\newblock
+\showeprint[arxiv]{2104.09224}~[cs]
+
+
+\bibitem[Nagrani et~al\mbox{.}({[n.\,d.]})]%
+        {nagrani_attention_nodate}
+\bibfield{author}{\bibinfo{person}{Arsha Nagrani}, \bibinfo{person}{Shan Yang},
+  \bibinfo{person}{Anurag Arnab}, \bibinfo{person}{Aren Jansen},
+  \bibinfo{person}{Cordelia Schmid}, {and} \bibinfo{person}{Chen Sun}.}
+  \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \showarticletitle{Attention {{Bottlenecks}} for {{Multimodal
+  Fusion}}}.
+\newblock  (\bibinfo{year}{[n.\,d.]}), \bibinfo{pages}{14}.
+\newblock
+
+
+\bibitem[Vaswani et~al\mbox{.}(2017)]%
+        {vaswani_attention_2017}
+\bibfield{author}{\bibinfo{person}{Ashish Vaswani}, \bibinfo{person}{Noam
+  Shazeer}, \bibinfo{person}{Niki Parmar}, \bibinfo{person}{Jakob Uszkoreit},
+  \bibinfo{person}{Llion Jones}, \bibinfo{person}{Aidan~N Gomez},
+  \bibinfo{person}{{\L}ukasz Kaiser}, {and} \bibinfo{person}{Illia
+  Polosukhin}.} \bibinfo{year}{2017}\natexlab{}.
+\newblock \showarticletitle{Attention Is {{All}} You {{Need}}}. In
+  \bibinfo{booktitle}{\emph{Advances in {{Neural Information Processing
+  Systems}}}}, \bibfield{editor}{\bibinfo{person}{I.~Guyon},
+  \bibinfo{person}{U.~Von Luxburg}, \bibinfo{person}{S.~Bengio},
+  \bibinfo{person}{H.~Wallach}, \bibinfo{person}{R.~Fergus},
+  \bibinfo{person}{S.~Vishwanathan}, {and} \bibinfo{person}{R.~Garnett}}
+  (Eds.), Vol.~\bibinfo{volume}{30}. \bibinfo{publisher}{{Curran Associates,
+  Inc.}}
+\newblock
+
+
+\bibitem[Bangjie~Yang(1999)]%
+        {__1999}
+\bibfield{author}{\bibinfo{person}{Zhiyuan~Pei Bangjie~Yang}.}
+  \bibinfo{year}{1999}\natexlab{}.
+\newblock \showarticletitle{The definition of crop growth and remote sensing
+  monitoring}.
+\newblock \bibinfo{journal}{\emph{Transactions of the CSAE}}
+  \bibinfo{number}{03} (\bibinfo{year}{1999}), \bibinfo{pages}{214--218}.
+\newblock
+
+
+\bibitem[Carlson and Ripley(1997)]%
+        {carlson_relation_1997}
+\bibfield{author}{\bibinfo{person}{Toby~N Carlson} {and}
+  \bibinfo{person}{David~A Ripley}.} \bibinfo{year}{1997}\natexlab{}.
+\newblock \showarticletitle{On the Relation between {{NDVI}}, Fractional
+  Vegetation Cover, and Leaf Area Index}.
+\newblock \bibinfo{journal}{\emph{Remote sensing of Environment}}
+  \bibinfo{volume}{62}, \bibinfo{number}{3} (\bibinfo{year}{1997}),
+  \bibinfo{pages}{241--252}.
+\newblock
+
+
+\end{thebibliography}

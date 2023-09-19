@@ -1,0 +1,955 @@
+
+% Journals
+
+% First the Full Name is given, then the abbreviation used in the AMS Math
+% Reviews, with an indication if it could not be found there.
+% Note the 2nd overwrites the 1st, so swap them if you want the full name.
+
+ %{AMS}
+ @String{WHFreeman = "W. H. Freeman and Co." }
+ @String{VanNostrand = "Van Nostrand" }
+ @String{TexasPress = "University of Texas Press" }
+ @String{Springer = "Springer-Verlag" }
+ @String{SIAMPub = "{SIAM} Publications" }
+ @String{PrenticeHall = "Prentice-Hall" }
+ @String{PlenumPress = "Plenum Press" }
+ @String{PergamonPress = "Pergamon Press" }
+
+ %ACM
+ @String{OxfordPress = "Oxford University Press" }
+ @String{NorthHolland = "North-Holland" }
+ @String{NatBurStd = "National Bureau of Standards" }
+ @String{McGrawHill = "McGraw-Hill" }
+ @String{MathWorks = "The Math Works Inc." }
+ @String{Macmillan = "Macmillan" }
+ @String{JohnWileySons = "John Wiley and Sons" }
+ @String{JohnsHopkinsPress = "The Johns Hopkins University Press" }
+
+ @String{Interscience = "Interscience" }
+ @String{HoltRinehartWinston = "Holt, Rinehart and Winston" }
+ @String{Eyolles = "Eyolles" }
+ @String{DoverPub = "Dover Publications" }
+ @String{ClaredonPress = "Claredon Press" }
+ @String{Chelsea = "Chelsea" }
+ @String{CambridgePress = "Cambridge University Press" }
+ @String{Birkhauser = "Birkha{\"u}ser" }
+ @String{AMS = "American Mathematical Society" }
+ @String{AllynBacon = "Allyn and Bacon" }
+ @String{AddisonWesley = "Addison-Wesley" }
+ @String{AdamHilger = "Adam Hilger" }
+ @String{ACMPress = "{ACM} Press" }
+ @String{Academic = "Academic Press" }
+ @String{ZAngewMathPhys = "Z. Angew. Math. Phys." }
+ @String{ZAngewMathPhys = "Zeitschrift fur Angewandte Mathematik und Physik" }
+ @String{ZAngewMathMech = "Z. Angew. Math. Mech." }
+ @String{ZAngewMathMech = "Zeitschrift fur Angewandte Mathematik und
+     Mechanik" }
+ @String{VLSICompSys = "J. {VLSI} Comput. Syst." }
+ @String{VLSICompSys = "Journal of {VLSI} and Computer Systems" }
+ @String{USSRCompMathPhys = "{U. S. S. R.} Comput. Math. and Math. Phys." }
+ @String{USSRCompMathPhys = "{USSR} Computational Mathematics and Mathematical
+     Physics" }
+ @String{Techno = "Technometrics" }
+ @String{StatScience = "Statist. Sci." }
+ @String{StatScience = "Statistical Science" }
+ @String{SoftPracExp = "Software Prac. Experience" }
+ @String{SoftPracExp = "Software Practice and Experience" }
+ @String{SIAMSciStat = "{SIAM} J. Sci. Statist. Comput." } % didn't find in AMS MR., ibid.
+
+ %IEEE
+ @String{SIAMSciStat = "{SIAM} Journal on Scientific and Statistical
+     Computing" }
+ @String{SIAMReview = "{SIAM} Rev." }
+ @String{SIAMReview = "{SIAM} Review" }
+ @String{SIAMNumAnal = "{SIAM} J. Numer. Anal." }
+ @String{SIAMNumAnal = "{SIAM} Journal on Numerical Analysis" }
+ @String{SIAMMatrix = "{SIAM} J. Matrix Anal. Appl." } % didn't find in AMS MR
+ @String{SIAMMatrix = "{SIAM} Journal on Matrix Analysis and Applications" }
+ @String{SIAMComp = "{SIAM} J. Comput." } % didn't find in AMS MR
+ @String{SIAMComp = "{SIAM} Journal on Computing" }
+ @String{SIAMAppMath = "{SIAM} J. Appl. Math." }
+
+ @String{SIAMAppMath = "{SIAM} Journal on Applied Mathematics" }
+ @String{SIAMAlgMeth = "{SIAM} J. Algebraic Discrete Methods" }
+ @String{SIAMAlgMeth = "{SIAM} Journal on Algebraic and Discrete Methods" }
+ @String{JSIAMB = "J. Soc. Indust. Appl. Math. Ser. B Numer. Anal." }
+ @String{JSIAMB = "Journal of the Society for Industrial and Applied
+     Mathematics, Series B, Numerical Analysis" }
+ @String{JSIAM = "J. Soc. Indust. Appl. Math." }
+ @String{JSIAM = "Journal of the Society for Industrial and Applied
+     Mathematics" }
+ @String{RevueInstStat = "Rev. Inst. Internat. Statist." }
+ @String{RevueInstStat = "Review of the International Statisical Institute" }
+ @String{QuartApplMath = "Quart. Appl. Math." }
+ @String{QuartApplMath = "Quarterly of Applied Mathematics" }
+ @String{QuartMath = "Quart. J. Math. Oxford Ser. (2)" } % didn't find
+%% in AMS MR
+ @String{QuartMath = "Quarterly Journal of Mathematics, Oxford, Series (2)" }
+ @String{Psychometrika = "Psychometrika" }
+ @String{ProcNAS = "Proc. Nat. Acad. Sci. U. S. A." }
+ @String{ProcNAS = "Proceedings of the National Academy of Sciences
+                    of the USA" }
+ @String{PhilMag = "Philos. Mag." }
+ @String{PhilMag = "Philosophical Magazine" }
+ @String{ParComputing = "Parallel Comput." }
+ @String{ParComputing = "Parallel Computing" }
+ @String{ParDistComp = "J. Parallel and Distrib. Comput." }
+ @String{ParDistComp = "Journal of Parallel and Distributed Computing" }
+ @String{PacificMath = "Pacific J. Math." }
+ @String{PacificMath = "Pacific Journal of Mathematics" }
+ @String{NumerMath = "Numer. Math." }
+ @String{NumerMath = "Numerische Mathematik" }
+ @String{TablesAidsComp = "Math. Tables Aids Comput." }
+ @String{TablesAidsComp = "Mathematical Tables and Other Aids to Computation" }
+ @String{MathScand = "Math. Scand." }
+ @String{MathScand = "Mathematica Scandinavica" }
+ @String{MathComp = "Math. Comp." }
+ @String{MathComp = "Mathematics of Computation" }
+ @String{MathPhys = "J. Math. Phys." }
+ @String{MathPhys = "Journal of Mathematical Physics" }
+ @String{MathAnnalen = "Math. Ann." } % didn't find
+%% in AMS MR
+ @String{MathAnnalen = "Mathematische Annalen" }
+ @String{MathAnaAppl = "J. Math. Anal. Appl." }
+ @String{MathAnaAppl = "Journal of Mathematical Analysis and Applications" }
+ @String{LinAlgApp = "Linear Algebra Appl." }
+ @String{LinAlgApp = "Linear Algebra and its Applications" }
+ @String{JResNatBurStand = "J. Res. Nat. Bur. Standards" }
+ @String{JResNatBurStand = "Journal of Research of the National Bureau
+     of Standards" }
+ @String{Kibernetika = "Kibernetika" }
+ @String{IntSuper = "Internat. J. Supercomputing Applic." }
+ @String{IntSuper = "International Journal of Supercomputing Applications" }
+ @String{IntNumerEng = "Internat. J. Numer. Methods Engrg." }
+ @String{IntNumerEng = "International Journal for Numerical Methods in
+     Engineering" }
+ @String{IntControl = "Internat. J. Control" }
+
+ %SIAM
+ @String{IntControl = "International Journal of Control" }
+ @String{InstMathApp = "J. Inst. Math. Appl." }
+ @String{InstMathApp = "Journal of the Institute of Mathematics and
+     its Applications" }
+ @String{InfProcLet = "Inform. Process. Lett." }
+ @String{InfProcLet = "Information Processing Letters" }
+ @String{IMANumerAna = "{IMA} J. Numer. Anal." }
+ @String{IMANumerAna = "{IMA} Journal of Numerical Analysis" }
+ @String{IEEETransAeroElec = "{IEEE} Trans. Aerospace Electron. Systems" }
+ @String{IEEETransAeroElec = "{IEEE} Transactions on Aerospace and Electronic
+     Systems" }
+ @String{ProcIEEE = "Proc. {IEEE}" }
+ @String{ProcIEEE = "Proceedings of the {IEEE}" }
+ @String{IEEESpec = "{IEEE} Spectrum" }
+ @String{IEEETransAC = "{IEEE} Trans. Automat. Control" }
+ @String{IEEETransAC = "{IEEE} Transactions on Automatic Control" }
+ @String{IEEETransComp = "{IEEE} Trans. Comput." }
+ @String{IEEETransComp = "{IEEE} Transactions on Computers" }
+ @String{Computer = "{IEEE} Computer" }
+ @String{GiornaleMath = "Giorn. Mat." }
+
+ @String{GiornaleMath = "Giornale di Mathematiche" }
+ @String{Crelle = "Crelle's Journal" } % didn't find in AMS MR
+ @String{ContempMath = "Contemp. Math." }
+ @String{ContempMath = "Contemporary Mathematics" }
+ @String{Computing = "Computing" }
+ @String{CompSysSci = "J. Comput. System Sci." }
+ @String{CompSysSci = "Journal of Computer and System Sciences" }
+ @String{CompJour = "Comput. J." }
+ @String{CompJour = "The Computer Journal" }
+ @String{CompStruct = "Comput. \& Structures" }
+ @String{CompStruct = "Computers and Structures" }
+ @String{CompPhys = "J. Comput. Phys." }
+ @String{CompPhys = "Journal of Computational Physics" }
+
+% Publishers % ================================================= |
+
+ @String{CompApplMath = "J. Comput. Appl. Math." }
+ @String{CompApplMath = "Journal of Computational and Applied Mathematics" }
+ @String{CanMathBull = "Canad. Math. Bull." }
+ @String{CanMathBull = "Canadian Mathematical Bulletin" }
+ @String{BritStatPsych = "Brit. J. Math. Statist. Psych." }
+ @String{BritStatPsych = "British Journal of Mathematical and Statistical
+          Psychology" }
+ @String{BIT = "{BIT}" }
+ @String{AmerMathMonthly = "Amer. Math. Monthly" }
+ @String{AmerMathMonthly = "American Mathematical Monthly" }
+ @String{ApplMathComp = "Appl. Math. Comput." }
+ @String{ApplMathComp = "Applied Mathematics and Computation" }
+ @String{AmerStatAssoc = "J. Amer. Statist. Assoc." }
+ @String{AmerStatAssoc = "Journal of the American Statistical Association" }
+ @String{AmerSocio = "American Journal of Sociology" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newslett." }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newsletter" }
+ @String{ACMMathSoft = "{ACM} Trans. Math. Software" }
+ @String{ACMMathSoft = "{ACM} Transactions on Mathematical Software" }
+ @String{JACM = "J. ACM" }
+ @String{CompServ = "Comput. Surveys" }
+ @String{CACM = "Commun. {ACM}" }
+ @String{CACM = "Communications of the {ACM}" }  %address Oxford or London?
+ @String{TransAMS = "Trans. Amer. Math. Soc." }
+ @String{TransAMS = "Transactions of the American Mathematical Society" }
+ @String{ProcAMS = "Proc. Amer. Math. Soc." }
+ @String{ProcAMS = "Proceedings of the American Mathematical Society" }
+ @String{BullAMS = "Bull. Amer. Math. Soc." }
+ @String{BullAMS = "Bulletin of the American Mathematical Society" }
+ @String{AMSTrans = "Amer. Math. Soc. Transl." }
+ @String{AMSTrans = "American Mathematical Society Translations" }
+
+%Entries
+@article{8269806,
+  title = {Multimodal Machine Learning: {{A}} Survey and Taxonomy},
+  author = {Baltru{\v s}aitis, Tadas and Ahuja, Chaitanya and Morency, Louis-Philippe},
+  year = {2019},
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  volume = {41},
+  number = {2},
+  pages = {423--443},
+  doi = {10.1109/TPAMI.2018.2798607}
+}
+@article{9672157,
+  title = {Rice-Fusion: {{A}} Multimodality Data Fusion Framework for Rice Disease Diagnosis},
+  author = {Patil, Rutuja R. and Kumar, Sumit},
+  year = {2022},
+  journal = {IEEE access : practical innovations, open solutions},
+  volume = {10},
+  pages = {5207--5222},
+  doi = {10.1109/ACCESS.2022.3140815}
+}
+@article{9864182,
+  title = {Rice Transformer: {{A}} Novel Integrated Management System for Controlling Rice Diseases},
+  author = {Patil, Rutuja Rajendra and Kumar, Sumit},
+  year = {2022},
+  journal = {IEEE access : practical innovations, open solutions},
+  volume = {10},
+  pages = {87698--87714},
+  doi = {10.1109/ACCESS.2022.3200688}
+}
+@article{8999620,
+  title = {A {{CNN-Transformer}} Hybrid Approach for Crop Classification Using Multitemporal Multisensor Images},
+  author = {Li, Zhengtao and Chen, Guokun and Zhang, Tianxu},
+  year = {2020},
+  journal = {IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
+  volume = {13},
+  pages = {847--858},
+  doi = {10.1109/JSTARS.2020.2971763}
+}
+
+@article{fritsch1980monotone,
+  title = {Monotone Piecewise Cubic Interpolation},
+  author = {Fritsch, Frederick N and Carlson, Ralph E},
+  year = {1980},
+  journal = {SIAM Journal on Numerical Analysis},
+  volume = {17},
+  number = {2},
+  pages = {238--246},
+  publisher = {{SIAM}}
+}
+
+
+@misc{liang_foundations_2023,
+  title = {Foundations and {{Trends}} in {{Multimodal Machine Learning}}: {{Principles}}, {{Challenges}}, and {{Open Questions}}},
+  shorttitle = {Foundations and {{Trends}} in {{Multimodal Machine Learning}}},
+  author = {Liang, Paul Pu and Zadeh, Amir and Morency, Louis-Philippe},
+  year = {2023},
+  month = feb,
+  number = {arXiv:2209.03430},
+  eprint = {2209.03430},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  urldate = {2023-04-09},
+  archiveprefix = {arxiv},
+  langid = {english}
+}
+
+
+@misc{dosovitskiy_image_2021,
+  title = {An {{Image}} Is {{Worth}} 16x16 {{Words}}: {{Transformers}} for {{Image Recognition}} at {{Scale}}},
+  shorttitle = {An {{Image}} Is {{Worth}} 16x16 {{Words}}},
+  author = {Dosovitskiy, Alexey and Beyer, Lucas and Kolesnikov, Alexander and Weissenborn, Dirk},
+  year = {2021},
+  month = jun,
+  number = {arXiv:2010.11929},
+  eprint = {2010.11929},
+  primaryclass = {cs},
+  publisher = {{arXiv}},
+  urldate = {2022-11-08},
+  archiveprefix = {arxiv},
+  langid = {english}
+}
+
+
+@article{__1999,
+	title   = {The definition of crop growth and remote sensing monitoring},
+	author  = {Bangjie Yang,Zhiyuan Pei},
+	year    = {1999},
+	journal = {Transactions of the CSAE},
+	number  = {03},
+	pages   = {214--218}
+}
+
+
+@article{__2016,
+	title   = {Progress and Prospect of agricultural remote sensing research and application},
+	author  = {Zhongxin Chen and Jianqiang Ren,Huajun Tang and Yun Shi,Pei Leng and Jia Liu,Limin Wang and Wenbin Wu,Yanmin Yao and Hasituya},
+	year    = {2016},
+	journal = {Journal of Remote Sensing},
+	volume  = {20},
+	number  = {05},
+	pages   = {748--767},
+	isbn    = {1007-4619},
+	lccn    = {11-3841/TP}
+}
+
+@article{__2019-3,
+	title   = {Design and application of crop growth assessment index},
+	author  = {{Lei Zhang} and {Yingyu Hou} and {Changling Zheng} and {Wei Liu} and {Liang He} and {Anhong Guo} and {Lu Cheng}},
+	year    = {2019},
+	journal = {Journal of Applied Meteorology},
+	volume  = {30},
+	number  = {5},
+	pages   = {543--554}
+}
+@article{adisa_application_2019,
+	title     = {Application of Artificial Neural Network for Predicting Maize Production in {{South Africa}}},
+	author    = {Adisa, Omolola M and Botai, Joel O and Adeola, Abiodun M and Hassen, Abubeker and Botai, Christina M and Darkey, Daniel and Tesfamariam, Eyob},
+	year      = {2019},
+	journal   = {Sustainability},
+	volume    = {11},
+	number    = {4},
+	pages     = {1145},
+	publisher = {{MDPI}}
+}
+
+@article{boogaard1998wofost,
+	title     = {WOFOST 7.1; user's guide for the WOFOST 7.1 crop growth simulation model and WOFOST Control Center 1.5},
+	author    = {Boogaard, HL and Van Diepen, CA and Rotter, RP and Cabrera, JMCA and Van Laar, HH},
+	year      = {1998},
+	publisher = {SC-DLO}
+}
+
+@book{book,
+	author = {Gaydon, Donald and Roth, Christian},
+	year   = {2014},
+	month  = {02},
+	pages  = {},
+	title  = {SAC Monograph: The SAARC-Australia Project-Developing Capacity in Cropping Systems Modelling for South Asia},
+	isbn   = {978-984-33-7469-1}
+}
+
+@article{BRISSON2003309,
+	title   = {An Overview of the Crop Model Stics},
+	author  = {Brisson, N and Gary, C and Justes, E and Roche, R and Mary, B and Ripoche, D and Zimmer, D and Sierra, J and Bertuzzi, P and Burger, P and Bussi{\`e}re, F and Cabidoche, Y.M and Cellier, P and Debaeke, P and Gaudill{\`e}re, J.P and H{\'e}nault, C and Maraux, F and Seguin, B and Sinoquet, H},
+	year    = {2003},
+	journal = {European Journal of Agronomy},
+	volume  = {18},
+	number  = {3},
+	pages   = {309--332},
+	issn    = {1161-0301},
+	doi     = {10.1016/S1161-0301(02)00110-7}
+}
+
+@article{campbell_effect_1988,
+	title     = {Effect of Crop Rotation and Fertilization on the Quantitative Relationship between Spring Wheat Yield and Moisture Use in Southwestern {{Saskatchewan}}},
+	author    = {Campbell, CA and Zentner, RP and Johnson, PJ},
+	year      = {1988},
+	journal   = {Canadian Journal of Soil Science},
+	volume    = {68},
+	number    = {1},
+	pages     = {1--16},
+	publisher = {{NRC Research Press Ottawa, Canada}}
+}
+
+@article{carlson_relation_1997,
+	title     = {On the Relation between {{NDVI}}, Fractional Vegetation Cover, and Leaf Area Index},
+	author    = {Carlson, Toby N and Ripley, David A},
+	year      = {1997},
+	journal   = {Remote sensing of Environment},
+	volume    = {62},
+	number    = {3},
+	pages     = {241--252},
+	publisher = {{Elsevier}}
+}
+
+@article{chen_heu_2021,
+	title     = {{{HEU Emotion}}: A Large-Scale Database for Multimodal Emotion Recognition in the Wild},
+	author    = {Chen, Jing and Wang, Chenhui and Wang, Kejun and Yin, Chaoqun and Zhao, Cong and Xu, Tao and Zhang, Xinyi and Huang, Ziqiang and Liu, Meichen and Yang, Tao},
+	year      = {2021},
+	journal   = {Neural Computing and Applications},
+	volume    = {33},
+	number    = {14},
+	pages     = {8669--8685},
+	publisher = {{Springer}}
+}
+
+@article{chen_improving_2018,
+	title   = {Improving Regional Winter Wheat Yield Estimation through Assimilation of Phenology and Leaf Area Index from Remote Sensing Data},
+	author  = {Chen, Yi and Zhang, Zhao and Tao, Fulu},
+	year    = {2018},
+	journal = {European Journal of Agronomy},
+	volume  = {101},
+	pages   = {163--173},
+	issn    = {1161-0301},
+	doi     = {10.1016/j.eja.2018.09.006}
+}
+
+@article{chu_end--end_2020,
+	title   = {An End-to-End Model for Rice Yield Prediction Using Deep Learning Fusion},
+	author  = {Chu, Zheng and Yu, Jiong},
+	year    = {2020},
+	journal = {Computers and Electronics in Agriculture},
+	volume  = {174},
+	pages   = {105471},
+	issn    = {0168-1699},
+	doi     = {10.1016/j.compag.2020.105471}
+}
+
+@article{clevers_remote_2013,
+	title     = {Remote Estimation of Crop and Grass Chlorophyll and Nitrogen Content Using Red-Edge Bands on {{Sentinel-2}} and-3},
+	author    = {Clevers, Jan GPW and Gitelson, Anatoly A},
+	year      = {2013},
+	journal   = {International Journal of Applied Earth Observation and Geoinformation},
+	volume    = {23},
+	pages     = {344--351},
+	publisher = {{Elsevier}}
+}
+
+@misc{cukurova_promise_2020,
+	title     = {The Promise and Challenges of Multimodal Learning Analytics},
+	author    = {Cukurova, Mutlu and Giannakos, Michail and {Martinez-Maldonado}, Roberto},
+	year      = {2020},
+	journal   = {British Journal of Educational Technology},
+	volume    = {51},
+	number    = {5},
+	pages     = {1441--1449},
+	publisher = {{Wiley Online Library}}
+}
+
+@article{dahikar_agricultural_2014,
+	title     = {Agricultural Crop Yield Prediction Using Artificial Neural Network Approach},
+	author    = {Dahikar, Snehal S and Rode, Sandeep V},
+	year      = {2014},
+	journal   = {International journal of innovative research in electrical, electronics, instrumentation and control engineering},
+	volume    = {2},
+	number    = {1},
+	pages     = {683--686},
+	publisher = {{Citeseer}}
+}
+
+@article{dang2021autumn,
+	title     = {Autumn Crop Yield Prediction Using Data-Driven Approaches:-Support Vector Machines, Random Forest, and Deep Neural Network Methods},
+	author    = {Dang, Chaoya and Liu, Ying and Yue, Hui and Qian, JiaXin and Zhu, Rong},
+	year      = {2021},
+	journal   = {Canadian Journal of Remote Sensing},
+	volume    = {47},
+	number    = {2},
+	pages     = {162--181},
+	publisher = {{Taylor \& Francis}}
+}
+
+@inproceedings{deng_imagenet_2009,
+	title     = {Imagenet: {{A}} Large-Scale Hierarchical Image Database},
+	booktitle = {2009 {{IEEE}} Conference on Computer Vision and Pattern Recognition},
+	author    = {Deng, Jia and Dong, Wei and Socher, Richard and Li, Li-Jia and Li, Kai and {Fei-Fei}, Li},
+	year      = {2009},
+	pages     = {248--255},
+	publisher = {{Ieee}}
+}
+
+@inproceedings{drummond_application_1998,
+	title     = {Application of Neural Networks: Precision Farming},
+	booktitle = {1998 {{IEEE International Joint Conference}} on {{Neural Networks Proceedings}}. {{IEEE World Congress}} on {{Computational Intelligence}} ({{Cat}}. {{No}}. {{98CH36227}})},
+	author    = {Drummond, Scott and Joshi, Anupam and Sudduth, Kenneth A},
+	year      = {1998},
+	volume    = {1},
+	pages     = {211--215},
+	publisher = {{IEEE}}
+}
+
+@article{ehret_neural_2011,
+	title     = {Neural Network Modeling of Greenhouse Tomato Yield, Growth and Water Use from Automated Crop Monitoring Data},
+	author    = {Ehret, David L and Hill, Bernard D and Helmer, Tom and Edwards, Diane R},
+	year      = {2011},
+	journal   = {Computers and electronics in agriculture},
+	volume    = {79},
+	number    = {1},
+	pages     = {82--89},
+	publisher = {{Elsevier}}
+}
+
+@article{fortin_site-specific_2011,
+	title     = {Site-Specific Early Season Potato Yield Forecast by Neural Network in {{Eastern Canada}}},
+	author    = {Fortin, J{\'e}r{\^o}me G and Anctil, Fran{\c c}ois and Parent, L{\'e}on-{\'E}tienne and Bolinder, Martin A},
+	year      = {2011},
+	journal   = {Precision agriculture},
+	volume    = {12},
+	number    = {6},
+	pages     = {905--923},
+	publisher = {{Springer}}
+}
+
+@article{guo2019deep,
+	title     = {Deep learning-based image segmentation on multimodal medical imaging},
+	author    = {Guo, Zhe and Li, Xiang and Huang, Heng and Guo, Ning and Li, Quanzheng},
+	journal   = {IEEE Transactions on Radiation and Plasma Medical Sciences},
+	volume    = {3},
+	number    = {2},
+	pages     = {162--169},
+	year      = {2019},
+	publisher = {IEEE}
+}
+
+@misc{huang_what_2021,
+	title         = {What {{Makes Multi-modal Learning Better}} than {{Single}} ({{Provably}})},
+	author        = {Huang, Yu and Du, Chenzhuang and Xue, Zihui and Chen, Xuanyao and Zhao, Hang and Huang, Longbo},
+	year          = {2021},
+	month         = oct,
+	number        = {arXiv:2106.04538},
+	eprint        = {2106.04538},
+	eprinttype    = {arxiv},
+	primaryclass  = {cs},
+	publisher     = {{arXiv}},
+	archiveprefix = {arXiv},
+	langid        = {english}
+}
+
+@inproceedings{islam_deep_2018,
+	title     = {A {{Deep Neural Network Approach}} for {{Crop Selection}} and {{Yield Prediction}} in {{Bangladesh}}},
+	booktitle = {2018 {{IEEE Region}} 10 {{Humanitarian Technology Conference}} ({{R10-HTC}})},
+	author    = {Islam, Tanhim and Chisty, Tanjir Alam and Chakrabarty, Amitabha},
+	year      = {2018},
+	pages     = {1--6},
+	doi       = {10.1109/R10-HTC.2018.8629828}
+}
+
+@article{johnson_crop_2016,
+	title     = {Crop Yield Forecasting on the {{Canadian Prairies}} by Remotely Sensed Vegetation Indices and Machine Learning Methods},
+	author    = {Johnson, Michael D and Hsieh, William W and Cannon, Alex J and Davidson, Andrew and B{\'e}dard, Fr{\'e}d{\'e}ric},
+	year      = {2016},
+	journal   = {Agricultural and forest meteorology},
+	volume    = {218},
+	pages     = {74--84},
+	publisher = {{Elsevier}}
+}
+
+@article{kitchen_soil_2003,
+	title     = {Soil Electrical Conductivity and Topography Related to Yield for Three Contrasting Soil\textendash Crop Systems},
+	author    = {Kitchen, NR and Drummond, ST and Lund, ED and Sudduth, KA and Buchleiter, GW},
+	year      = {2003},
+	journal   = {Agronomy journal},
+	volume    = {95},
+	number    = {3},
+	pages     = {483--495},
+	publisher = {{Wiley Online Library}}
+}
+
+@article{lecun_deep_2015,
+	title     = {Deep Learning},
+	author    = {LeCun, Yann and Bengio, Yoshua and Hinton, Geoffrey},
+	year      = {2015},
+	journal   = {nature},
+	volume    = {521},
+	number    = {7553},
+	pages     = {436--444},
+	publisher = {{Nature Publishing Group}}
+}
+
+@article{lei_video_2021,
+	title     = {Video Captioning Based on Channel Soft Attention and Semantic Reconstructor},
+	author    = {Lei, Zhou and Huang, Yiyong},
+	year      = {2021},
+	journal   = {Future Internet},
+	volume    = {13},
+	number    = {2},
+	pages     = {55},
+	publisher = {{MDPI}}
+}
+
+@article{liu_neural_2001,
+	title     = {A Neural Network for Setting Target Corn Yields},
+	author    = {Liu, Jing and Goering, CE and Tian, Lei},
+	year      = {2001},
+	journal   = {Transactions of the ASAE},
+	volume    = {44},
+	number    = {3},
+	pages     = {705},
+	publisher = {{American Society of Agricultural and Biological Engineers}}
+}
+
+@article{lobell_scalable_2015,
+	title     = {A Scalable Satellite-Based Crop Yield Mapper},
+	author    = {Lobell, David B and Thau, David and Seifert, Christopher and Engle, Eric and Little, Bertis},
+	year      = {2015},
+	journal   = {Remote Sensing of Environment},
+	volume    = {164},
+	pages     = {324--333},
+	publisher = {{Elsevier}}
+}
+
+@article{long_improving_2021,
+	title     = {Improving Reasoning with Contrastive Visual Information for Visual Question Answering},
+	author    = {Long, Yu and Tang, Pengjie and Wang, Hanli and Yu, Jian},
+	year      = {2021},
+	journal   = {Electronics Letters},
+	volume    = {57},
+	number    = {20},
+	pages     = {758--760},
+	publisher = {{Wiley Online Library}}
+}
+
+@article{maimaitijiang_soybean_2020,
+	title   = {Soybean Yield Prediction from {{UAV}} Using Multimodal Data Fusion and Deep Learning},
+	author  = {Maimaitijiang, Maitiniyazi and Sagan, Vasit and Sidike, Paheding and Hartling, Sean and Esposito, Flavio and Fritschi, Felix B.},
+	year    = {2020},
+	month   = feb,
+	journal = {Remote Sensing of Environment},
+	volume  = {237},
+	pages   = {111599},
+	issn    = {00344257},
+	doi     = {10.1016/j.rse.2019.111599},
+	langid  = {english}
+}
+
+@article{maimaitijiang_unmanned_2017,
+	title   = {Unmanned {{Aerial System}} ({{UAS}})-Based Phenotyping of Soybean Using Multi-Sensor Data Fusion and Extreme Learning Machine},
+	author  = {Maimaitijiang, Maitiniyazi and Ghulam, Abduwasit and Sidike, Paheding and Hartling, Sean and Maimaitiyiming, Matthew and Peterson, Kyle and Shavers, Ethan and Fishman, Jack and Peterson, Jim and Kadam, Suhas and Burken, Joel and Fritschi, Felix},
+	year    = {2017},
+	journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+	volume  = {134},
+	pages   = {43--58},
+	issn    = {0924-2716},
+	doi     = {10.1016/j.isprsjprs.2017.10.011}
+}
+
+@article{matsumura_maize_2015,
+	title     = {Maize Yield Forecasting by Linear Regression and Artificial Neural Networks in {{Jilin}}, {{China}}},
+	author    = {Matsumura, Kanichiro and Gaitan, Carlos F and Sugimoto, Kenji and Cannon, Alex J and Hsieh, William W},
+	year      = {2015},
+	journal   = {The Journal of Agricultural Science},
+	volume    = {153},
+	number    = {3},
+	pages     = {399--410},
+	publisher = {{Cambridge University Press}}
+}
+
+@article{morimoto_dynamic_2007,
+	title     = {Dynamic Optimization of Watering {{Satsuma}} Mandarin Using Neural Networks and Genetic Algorithms},
+	author    = {Morimoto, T and Ouchi, Y and Shimizu, M and Baloch, MS},
+	year      = {2007},
+	journal   = {Agricultural water management},
+	volume    = {93},
+	number    = {1-2},
+	pages     = {1--10},
+	publisher = {{Elsevier}}
+}
+
+@article{nagrani_attention_nodate,
+	title  = {Attention {{Bottlenecks}} for {{Multimodal Fusion}}},
+	author = {Nagrani, Arsha and Yang, Shan and Arnab, Anurag and Jansen, Aren and Schmid, Cordelia and Sun, Chen},
+	pages  = {14},
+	langid = {english}
+}
+
+@article{nevavuori_crop_2019,
+	title     = {Crop Yield Prediction with Deep Convolutional Neural Networks},
+	author    = {Nevavuori, Petteri and Narra, Nathaniel and Lipping, Tarmo},
+	year      = {2019},
+	journal   = {Computers and electronics in agriculture},
+	volume    = {163},
+	pages     = {104859},
+	publisher = {{Elsevier}}
+}
+
+@article{nevavuori_crop_2020,
+	title   = {Crop {{Yield Prediction Using Multitemporal UAV Data}} and {{Spatio-Temporal Deep Learning Models}}},
+	author  = {Nevavuori, Petteri and Narra, Nathaniel and Linna, Petri and Lipping, Tarmo},
+	year    = {2020},
+	journal = {Remote Sensing},
+	volume  = {12},
+	number  = {23},
+	issn    = {2072-4292},
+	doi     = {10.3390/rs12234000}
+}
+
+@article{oneal_neural_2002,
+	title  = {Neural Network Prediction of Maize Yield Using Alternative Data Coding Algorithms},
+	author = {O'Neal, Monte R and Engel, Bernard A and Ess, Daniel R and Frankenberger, Jane R},
+	year   = {2002}
+}
+
+@article{padilla_proximal_2018,
+	title     = {Proximal Optical Sensors for Nitrogen Management of Vegetable Crops: {{A}} Review},
+	author    = {Padilla, Francisco M and Gallardo, Marisa and {Pe{\~n}a-Fleitas}, M Teresa and De Souza, Romina and Thompson, Rodney B},
+	year      = {2018},
+	journal   = {Sensors},
+	volume    = {18},
+	number    = {7},
+	pages     = {2083},
+	publisher = {{MDPI}}
+}
+
+@misc{prakash_multi-modal_2021,
+	title         = {Multi-{{Modal Fusion Transformer}} for {{End-to-End Autonomous Driving}}},
+	author        = {Prakash, Aditya and Chitta, Kashyap and Geiger, Andreas},
+	year          = {2021},
+	month         = apr,
+	number        = {arXiv:2104.09224},
+	eprint        = {2104.09224},
+	eprinttype    = {arxiv},
+	primaryclass  = {cs},
+	publisher     = {{arXiv}},
+	archiveprefix = {arXiv},
+	langid        = {english}
+}
+
+@article{sengupta_review_2020,
+	title     = {A Review of Deep Learning with Special Emphasis on Architectures, Applications and Recent Trends},
+	author    = {Sengupta, Saptarshi and Basak, Sanchita and Saikia, Pallabi and Paul, Sayak and Tsalavoutis, Vasilios and Atiah, Frederick and Ravi, Vadlamani and Peters, Alan},
+	year      = {2020},
+	journal   = {Knowledge-Based Systems},
+	volume    = {194},
+	pages     = {105596},
+	publisher = {{Elsevier}}
+}
+
+@article{smith_development_2005,
+	title     = {The Development of Embodied Cognition: {{Six}} Lessons from Babies},
+	author    = {Smith, Linda and Gasser, Michael},
+	year      = {2005},
+	journal   = {Artificial life},
+	volume    = {11},
+	number    = {1-2},
+	pages     = {13--29},
+	publisher = {{MIT Press}}
+}
+
+@article{snoek_multimodal_2005,
+	title     = {Multimodal Video Indexing: {{A}} Review of the State-of-the-Art},
+	author    = {Snoek, Cees GM and Worring, Marcel},
+	year      = {2005},
+	journal   = {Multimedia tools and applications},
+	volume    = {25},
+	number    = {1},
+	pages     = {5--35},
+	publisher = {{Springer}}
+}
+
+@article{souza_online_2021,
+	title     = {Online Multimedia Retrieval on {{CPU}}\textendash{{GPU}} Platforms with Adaptive Work Partition},
+	author    = {Souza, Rafael and Fernandes, Andr{\'e} and Teixeira, Thiago SFX and Teodoro, George and Ferreira, Renato},
+	year      = {2021},
+	journal   = {Journal of Parallel and Distributed Computing},
+	volume    = {148},
+	pages     = {31--45},
+	publisher = {{Elsevier}}
+}
+
+@article{tao_estimation_2020,
+	title   = {Estimation of {{Crop Growth Parameters Using UAV-Based Hyperspectral Remote Sensing Data}}},
+	author  = {Tao, Huilin and Feng, Haikuan and Xu, Liangji and Miao, Mengke and Long, Huiling and Yue, Jibo and Li, Zhenhai and Yang, Guijun and Yang, Xiaodong and Fan, Lingling},
+	year    = {2020},
+	journal = {Sensors},
+	volume  = {20},
+	number  = {5},
+	pages   = {1296},
+	issn    = {1424-8220},
+	doi     = {10.3390/s20051296}
+}
+
+@article{trnka_effect_2007,
+	title   = {Effect of {{Estimated Daily Global Solar Radiation Data}} on the {{Results}} of {{Crop Growth Models}}},
+	author  = {Trnka, Miroslav and Eitzinger, Josef and Kapler, Pavel and Dubrovsk{\'y}, Martin and Semer{\'a}dov{\'a}, Daniela and {\v Z}alud, Zden{\v e}k and Formayer, Herbert},
+	year    = {2007},
+	month   = oct,
+	journal = {Sensors},
+	volume  = {7},
+	number  = {10},
+	pages   = {2330--2362},
+	issn    = {1424-8220},
+	doi     = {10.3390/s7102330},
+	langid  = {english}
+}
+
+@article{turkoglu_crop_2021,
+	title   = {Crop Mapping from Image Time Series: {{Deep}} Learning with Multi-Scale Label Hierarchies},
+	author  = {Turkoglu, Mehmet Ozgur and D'Aronco, Stefano and Perich, Gregor and Liebisch, Frank and Streit, Constantin and Schindler, Konrad and Wegner, Jan Dirk},
+	year    = {2021},
+	journal = {Remote Sensing of Environment},
+	volume  = {264},
+	pages   = {112603},
+	issn    = {0034-4257},
+	doi     = {10.1016/j.rse.2021.112603}
+}
+
+@inproceedings{vaswani_attention_2017,
+	title     = {Attention Is {{All}} You {{Need}}},
+	booktitle = {Advances in {{Neural Information Processing Systems}}},
+	author    = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\L}ukasz and Polosukhin, Illia},
+	editor    = {Guyon, I. and Luxburg, U. Von and Bengio, S. and Wallach, H. and Fergus, R. and Vishwanathan, S. and Garnett, R.},
+	year      = {2017},
+	volume    = {30},
+	publisher = {{Curran Associates, Inc.}}
+}
+
+@article{wan_grain_2020,
+	title   = {Grain Yield Prediction of Rice Using Multi-Temporal {{UAV-based RGB}} and Multispectral Images and Model Transfer \textendash{} a Case Study of Small Farmlands in the {{South}} of {{China}}},
+	author  = {Wan, Liang and Cen, Haiyan and Zhu, Jiangpeng and Zhang, Jiafei and Zhu, Yueming and Sun, Dawei and Du, Xiaoyue and Zhai, Li and Weng, Haiyong and Li, Yijian and Li, Xiaoran and Bao, Yidan and Shou, Jianyao and He, Yong},
+	year    = {2020},
+	journal = {Agricultural and Forest Meteorology},
+	volume  = {291},
+	pages   = {108096},
+	issn    = {0168-1923},
+	doi     = {10.1016/j.agrformet.2020.108096}
+}
+
+@article{wang_new_2022,
+	title   = {New Image Dataset and New Negative Sample Judgment Method for Crop Pest Recognition Based on Deep Learning Models},
+	author  = {Wang, Kaili and Chen, Keyu and Du, Huiyu and Liu, Shuang and Xu, Jingwen and Zhao, Junfang and Chen, Houlin and Liu, Yujun and Liu, Yang},
+	year    = {2022},
+	journal = {Ecological Informatics},
+	volume  = {69},
+	pages   = {101620},
+	issn    = {1574-9541},
+	doi     = {10.1016/j.ecoinf.2022.101620}
+}
+
+@article{weiss_plant_2011,
+	title   = {Plant Detection and Mapping for Agricultural Robots Using a {{3D LIDAR}} Sensor},
+	author  = {Weiss, Ulrich and Biber, Peter},
+	year    = {2011},
+	journal = {Robotics and Autonomous Systems},
+	volume  = {59},
+	number  = {5},
+	pages   = {265--273},
+	issn    = {0921-8890},
+	doi     = {10.1016/j.robot.2011.02.011}
+}
+
+@article{xiang_development_2011,
+	title   = {Development of a Low-Cost Agricultural Remote Sensing System Based on an Autonomous Unmanned Aerial Vehicle ({{UAV}})},
+	author  = {Xiang, Haitao and Tian, Lei},
+	year    = {2011},
+	journal = {Biosystems Engineering},
+	volume  = {108},
+	number  = {2},
+	pages   = {174--190},
+	issn    = {1537-5110},
+	doi     = {10.1016/j.biosystemseng.2010.11.010}
+}
+
+@article{xiao2020multimodal,
+	author  = {Xiao, Yi and Codevilla, Felipe and Gurram, Akhil and Urfalioglu, Onay and López, Antonio M.},
+	journal = {IEEE Transactions on Intelligent Transportation Systems},
+	title   = {Multimodal End-to-End Autonomous Driving},
+	year    = {2022},
+	volume  = {23},
+	number  = {1},
+	pages   = {537-547},
+	doi     = {10.1109/TITS.2020.3013234}
+}
+
+@article{yang_deep_2019,
+	title     = {Deep Convolutional Neural Networks for Rice Grain Yield Estimation at the Ripening Stage Using {{UAV-based}} Remotely Sensed Images},
+	author    = {Yang, Qi and Shi, Liangsheng and Han, Jinye and Zha, Yuanyuan and Zhu, Penghui},
+	year      = {2019},
+	journal   = {Field Crops Research},
+	volume    = {235},
+	pages     = {142--153},
+	publisher = {{Elsevier}}
+}
+
+@article{yazdavar_multimodal_2020,
+	title     = {Multimodal Mental Health Analysis in Social Media},
+	author    = {Yazdavar, Amir Hossein and Mahdavinejad, Mohammad Saeid and Bajaj, Goonmeet and Romine, William and Sheth, Amit and Monadjemi, Amir Hassan and Thirunarayan, Krishnaprasad and Meddar, John M and Myers, Annie and Pathak, Jyotishman and others},
+	year      = {2020},
+	journal   = {Plos one},
+	volume    = {15},
+	number    = {4},
+	pages     = {e0226248},
+	publisher = {{Public Library of Science San Francisco, CA USA}}
+}
+
+@article{yu_automatic_2013,
+	title   = {Automatic Image-Based Detection Technology for Two Critical Growth Stages of Maize: {{Emergence}} and Three-Leaf Stage},
+	author  = {Yu, Z. and Cao, Z. and Wu, X. and Bai, X. and Qin, Y. and Zhuo, W. and Xiao, Y. and Zhang, X. and Xue, H.},
+	year    = {2013},
+	journal = {Agricultural \& Forest Meteorology},
+	volume  = {174--175},
+	number  = {Complete},
+	pages   = {65--84}
+}
+
+@article{yue_estimate_2019,
+	title   = {Estimate of Winter-Wheat above-Ground Biomass Based on {{UAV}} Ultrahigh-Ground-Resolution Image Textures and Vegetation Indices},
+	author  = {Yue, Jibo and Yang, Guijun and Tian, Qingjiu and Feng, Haikuan and Xu, Kaijian and Zhou, Chengquan},
+	year    = {2019},
+	journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+	volume  = {150},
+	pages   = {226--244},
+	issn    = {0924-2716},
+	doi     = {10.1016/j.isprsjprs.2019.02.022}
+}
+
+@article{yuhas_integration_1989,
+	title     = {Integration of Acoustic and Visual Speech Signals Using Neural Networks},
+	author    = {Yuhas, Ben P and Goldstein, Moise H and Sejnowski, Terrence J},
+	year      = {1989},
+	journal   = {IEEE Communications Magazine},
+	volume    = {27},
+	number    = {11},
+	pages     = {65--71},
+	publisher = {{IEEE}}
+}
+
+@misc{zhao_battle_2021,
+	title         = {A {{Battle}} of {{Network Structures}}: {{An Empirical Study}} of {{CNN}}, {{Transformer}}, and {{MLP}}},
+	shorttitle    = {A {{Battle}} of {{Network Structures}}},
+	author        = {Zhao, Yucheng and Wang, Guangting and Tang, Chuanxin and Luo, Chong and Zeng, Wenjun and Zha, Zheng-Jun},
+	year          = {2021},
+	month         = nov,
+	number        = {arXiv:2108.13002},
+	eprint        = {2108.13002},
+	eprinttype    = {arxiv},
+	primaryclass  = {cs},
+	publisher     = {{arXiv}},
+	archiveprefix = {arXiv},
+	langid        = {english}
+}
+
+@article{zhong_deep_2019,
+	title     = {Deep Learning Based Multi-Temporal Crop Classification},
+	author    = {Zhong, Liheng and Hu, Lina and Zhou, Hang},
+	year      = {2019},
+	journal   = {Remote sensing of environment},
+	volume    = {221},
+	pages     = {430--443},
+	publisher = {{Elsevier}}
+}
+@article{2020Deep,
+  title={Deep learning for the identification of bruised apples by fusing 3D deep features for apple grading systems},
+  author={ Hu, Zilong  and  Tang, Jinshan  and  Zhang, Ping  and  Jiang, Jingfeng },
+  journal={Mechanical Systems and Signal Processing},
+  volume={145},
+  pages={106922-},
+  year={2020},
+}
+@article{zhou_predicting_2017,
+	title   = {Predicting Grain Yield in Rice Using Multi-Temporal Vegetation Indices from {{UAV-based}} Multispectral and Digital Imagery},
+	author  = {Zhou, X. and Zheng, H. B. and Xu, X. Q. and He, J. Y. and Ge, X. K. and Yao, X. and Cheng, T. and Zhu, Y. and Cao, W. X. and Tian, Y. C.},
+	year    = {2017},
+	journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+	volume  = {130},
+	pages   = {246--255},
+	issn    = {0924-2716},
+	doi     = {10.1016/j.isprsjprs.2017.05.003}
+}
+
+@article{zhu_-field_2016,
+	title   = {In-Field Automatic Observation of Wheat Heading Stage Using Computer Vision},
+	author  = {Zhu, Yanjun and Cao, Zhiguo and Lu, Hao and Li, Yanan and Xiao, Yang},
+	year    = {2016},
+	journal = {Biosystems Engineering},
+	volume  = {143},
+	pages   = {28--41},
+	issn    = {1537-5110},
+	doi     = {10.1016/j.biosystemseng.2015.12.015}
+}
